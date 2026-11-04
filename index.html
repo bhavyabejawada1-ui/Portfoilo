@@ -1,0 +1,353 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Bejawada Bhavya | CSE Student & Aspiring Developer</title>
+  <meta name="description" content="Portfolio of Bejawada Bhavya, third-year B.Tech CSE student interested in software development, web development, data analysis and generative AI." />
+  <meta name="theme-color" content="#0b0d14" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&family=Fraunces:ital,wght@0,600;1,500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="scroll-progress" id="progress"></div>
+  <canvas id="bg" aria-hidden="true"></canvas>
+
+  <header class="nav" id="nav">
+    <a href="#home" class="logo" aria-label="Home"><span>B</span>B<i>.</i></a>
+    <button class="menu-btn" id="menuBtn" aria-label="Toggle menu"><span></span><span></span></button>
+    <nav id="links">
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#internships">Internships</a>
+      <a href="#workshops">Workshops</a>
+      <a href="#journey">Education</a>
+      <a href="#certs">Certificates</a>
+      <a href="#contact" class="cta-link">Hire me</a>
+    </nav>
+  </header>
+
+  <main>
+    <!-- HERO -->
+    <section id="home" class="hero">
+      <div class="hero-text">
+        <p class="eyebrow reveal"><span class="dot"></span> Open to internships &amp; project opportunities</p>
+        <h1 class="reveal">Hi, I'm <span class="grad">Bejawada&nbsp;Bhavya</span></h1>
+        <p class="typing reveal"><span class="prompt">&gt;</span> <span id="typed"></span><span class="caret"></span></p>
+        <p class="lead reveal">Third-year B.Tech CSE student who enjoys turning ideas into working software. I'm building my foundation in programming, web development and data analysis, and exploring what generative AI can create.</p>
+        <div class="hero-btns reveal">
+          <a href="#workshops" class="btn primary">View my workshops</a>
+          <a href="resume.pdf" class="btn ghost" download="Bejawada-Bhavya-Resume.pdf">Download resume</a>
+        </div>
+        <ul class="socials reveal">
+          <li><a href="https://github.com/bhavyabejawada1-ui" target="_blank" rel="noopener">GitHub</a></li>
+          <li><a href="https://www.linkedin.com/in/bhavyabejawada-108639384" target="_blank" rel="noopener">LinkedIn</a></li>
+          <li><a href="mailto:bhavyabejawada1@gmail.com">Email</a></li>
+          <li><a href="tel:+919390499910">Call</a></li>
+        </ul>
+      </div>
+
+      <div class="hero-card reveal" id="tilt">
+        <div class="card-top"><i></i><i></i><i></i><span>bhavya.profile</span></div>
+        <div class="avatar"><img src="photo.jpg" alt="Bejawada Bhavya, B.Tech CSE student" width="150" height="150" /></div>
+        <pre class="code"><code><b>const</b> bhavya = {
+  <u>role</u>:    <s>"B.Tech CSE Student"</s>,
+  <u>year</u>:    <s>"3rd year (2024-2028)"</s>,
+  <u>college</u>: <s>"Eluru College of Eng. &amp; Tech"</s>,
+  <u>focus</u>:   [<s>"Web"</s>, <s>"Data"</s>, <s>"GenAI"</s>],
+  <u>status</u>:  <s>"learning &amp; building"</s>
+};</code></pre>
+      </div>
+    </section>
+
+    <!-- STATS -->
+    <section class="stats">
+      <div class="stat reveal"><b data-count="4">0</b><span>Virtual internships</span></div>
+      <div class="stat reveal"><b data-count="2">0</b><span>AI workshops</span></div>
+      <div class="stat reveal"><b data-count="3">0</b><span>Innovation events</span></div>
+      <div class="stat reveal"><b data-count="8">0</b><span>Certificates</span></div>
+    </section>
+
+    <!-- ABOUT -->
+    <section id="about" class="section">
+      <div class="section-head reveal"><span class="num">01</span><h2>About me</h2></div>
+      <div class="about-grid">
+        <div class="about-text reveal">
+          <p>I'm a Computer Science and Engineering undergraduate at <strong>Eluru College of Engineering &amp; Technology</strong> in Andhra Pradesh. I like solving problems step by step, and I learn best by building real things, from hands-on generative AI workshops to a short AI-generated film about the world in 2050. I also join hackathons, ideathons and tech fests to learn by doing, and I have completed four virtual internships covering AI-ML, Android development, Python full stack and data engineering.</p>
+          <p>Right now I'm strengthening my C and C++ fundamentals, practising web development with JavaScript, React and Node.js, and working with Python for data and machine learning. I'm looking for an <strong>entry-level internship or project</strong> where I can apply my analytical thinking, learn from experienced engineers and contribute to something real.</p>
+        </div>
+        <div class="about-side reveal">
+          <h3>Strengths</h3>
+          <div class="chips">
+            <span>Willingness to learn</span><span>Creative problem-solving</span><span>Interest in technology &amp; AI</span><span>Team collaboration</span>
+          </div>
+          <h3>Career interests</h3>
+          <div class="chips alt">
+            <span>Software Development</span><span>Data Analysis</span><span>Web Development</span><span>Generative AI</span>
+          </div>
+          <h3>Languages</h3>
+          <div class="chips">
+            <span>English</span><span>Telugu</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SKILLS -->
+    <section id="skills" class="section">
+      <div class="section-head reveal"><span class="num">02</span><h2>Technical skills</h2></div>
+      <div class="skill-grid">
+        <article class="skill-card reveal">
+          <div class="ico">&lt;/&gt;</div>
+          <h3>Programming</h3>
+          <p class="note">Learning &amp; practice</p>
+          <div class="chips"><span>C</span><span>C++</span><span>Python</span></div>
+        </article>
+        <article class="skill-card reveal">
+          <div class="ico">⌘</div>
+          <h3>Web development</h3>
+          <p class="note">Learning &amp; academic practice</p>
+          <div class="chips"><span>JavaScript</span><span>React</span><span>Node.js</span><span>Express.js</span></div>
+        </article>
+        <article class="skill-card reveal">
+          <div class="ico">∑</div>
+          <h3>Data &amp; tools</h3>
+          <p class="note">Analysis and machine learning</p>
+          <div class="chips"><span>SQL</span><span>Excel</span><span>Pandas</span><span>NumPy</span><span>Scikit-learn</span><span>Flask</span></div>
+        </article>
+        <article class="skill-card reveal">
+          <div class="ico">✦</div>
+          <h3>Concepts</h3>
+          <p class="note">Core foundation</p>
+          <div class="chips"><span>Programming fundamentals</span><span>Problem-solving</span><span>Basic web apps</span><span>Generative AI</span><span>AI agents</span></div>
+        </article>
+      </div>
+    </section>
+
+    <!-- INTERNSHIPS -->
+    <section id="internships" class="section">
+      <div class="section-head reveal"><span class="num">03</span><h2>Virtual internships</h2></div>
+      <p class="cert-hint reveal">Four internships completed under the AICTE&ndash;EduSkills programme (Ministry of Education).</p>
+      <div class="intern-grid">
+        <article class="project reveal">
+          <div class="p-top"><span class="tag">AI / ML</span><span class="tag ghost">Jun – Aug 2026</span></div>
+          <h3>AI-ML Virtual Internship</h3>
+          <p class="sub">8 weeks &middot; AICTE&ndash;EduSkills &middot; Supported by Google for Developers (India Edu Program)</p>
+          <p>Completed successfully through the virtual internship programme of the Ministry of Education and AICTE, run by EduSkills.</p>
+          <button class="link btn-link" data-cert="cert-aiml-internship.jpg">View certificate →</button>
+        </article>
+
+        <article class="project reveal">
+          <div class="p-top"><span class="tag">Android</span><span class="tag ghost">Apr – Jun 2026</span></div>
+          <h3>Android Developer Virtual Internship</h3>
+          <p class="sub">8 weeks &middot; AICTE&ndash;EduSkills &middot; Supported by Google for Developers (India Edu Program)</p>
+          <p>Completed successfully through the virtual internship programme of the Ministry of Education and AICTE, run by EduSkills.</p>
+          <button class="link btn-link" data-cert="cert-android-internship.jpg">View certificate →</button>
+        </article>
+
+        <article class="project reveal">
+          <div class="p-top"><span class="tag">Python Full Stack</span><span class="tag ghost">Jan – Mar 2026</span></div>
+          <h3>Python Fullstack Developer Virtual Internship</h3>
+          <p class="sub">10 weeks &middot; AICTE&ndash;EduSkills &middot; Supported by EduSkills Academy</p>
+          <p>Completed successfully through the virtual internship programme of the Ministry of Education and AICTE, run by EduSkills.</p>
+          <button class="link btn-link" data-cert="cert-python-internship.jpg">View certificate →</button>
+        </article>
+
+        <article class="project reveal">
+          <div class="p-top"><span class="tag">Data Engineering</span><span class="tag ghost">Oct – Dec 2025</span></div>
+          <h3>Data Engineering Virtual Internship</h3>
+          <p class="sub">10 weeks &middot; AICTE&ndash;EduSkills &middot; Curriculum provided by AWS Academy</p>
+          <p>Completed successfully through the virtual internship programme of the Ministry of Education and AICTE, run by EduSkills.</p>
+          <button class="link btn-link" data-cert="cert-data-engineering-internship.jpg">View certificate →</button>
+        </article>
+      </div>
+    </section>
+
+    <!-- WORKSHOPS -->
+    <section id="workshops" class="section">
+      <div class="section-head reveal"><span class="num">04</span><h2>Workshops &amp; events</h2></div>
+      <div class="project-grid">
+        <article class="project featured reveal">
+          <div class="p-top"><span class="tag">Generative AI</span><span class="tag ghost">14 – 16 Oct 2026</span></div>
+          <h3>Generative AI &amp; Prompt Engineering</h3>
+          <p class="sub">3-day workshop &middot; C2C Tech Solutions Pvt. Ltd. with the CSE Department, Eluru College of Engineering &amp; Technology</p>
+          <ul>
+            <li>Learned how large language models work and how to write effective prompts.</li>
+            <li>Worked hands-on with photo editing and video editing.</li>
+            <li>Picked up new skills in poster generation and PPT creation.</li>
+            <li>Explored AI audio, song-lyrics and song generation, plus an introduction to AI agents.</li>
+            <li>Created an AI-generated concept video, <strong>"The World in 2050"</strong> (watch it below).</li>
+          </ul>
+          <div class="stack"><span>Prompt writing</span><span>Photo editing</span><span>Video editing</span><span>Poster generation</span><span>PPT creation</span></div>
+          <button class="link btn-link" data-cert="cert-generative-ai.jpg">View certificate →</button>
+        </article>
+
+        <article class="project future reveal">
+          <div class="p-top"><span class="tag">Agentic AI</span><span class="tag ghost">9 – 10 Oct 2026</span></div>
+          <h3>Agentic AI Workshop &amp; Hackathon</h3>
+          <p class="sub">Organised by GDGoC &ndash; HITAM &middot; Hyderabad, Telangana</p>
+          <div class="problem">
+            <span>Problem statement</span>
+            <p>Zero-Waste Grocery: An Agentic AI Approach to Perishable Demand &amp; Shelf-life Management</p>
+          </div>
+          <ul>
+            <li>Worked in a team on the problem statement above.</li>
+            <li>Explored AI agents and how they can automate tasks and solve real-world problems.</li>
+            <li>Took part in building intelligent AI agents in a live hackathon setting.</li>
+          </ul>
+          <div class="stack"><span>AI agents</span><span>Teamwork</span><span>Hackathon</span><span>Innovation</span></div>
+          <div style="display:flex;flex-wrap:wrap;gap:8px 22px">
+            <a class="link" href="https://github.com/bhavyabejawada1-ui/FreshGuard-AI" target="_blank" rel="noopener">View project on GitHub →</a>
+            <button class="link btn-link" data-cert="cert-agentic-ai.jpg">View certificate →</button>
+          </div>
+        </article>
+      </div>
+
+      <div class="showcase reveal">
+        <div class="year-glitch" aria-hidden="true">2050</div>
+        <video controls playsinline preload="metadata" poster="world-2050-poster.jpg">
+          <source src="world-2050.mp4" type="video/mp4" />
+          Your browser does not support the video tag.
+        </video>
+        <div class="showcase-text">
+          <span class="tag">Generative AI &middot; Creative</span>
+          <h3>The World in 2050</h3>
+          <p>An AI-generated concept video imagining how people and intelligent machines may share a city in 2050. I made it during the Generative AI workshop as a creative exploration of generative AI tools and visual storytelling.</p>
+        </div>
+      </div>
+
+      <div class="also reveal">
+        <div class="also-row">
+          <b>Also participated in</b>
+          <span>Tech Spokes Ideathon 2025, Eluru College of Engineering &amp; Technology (Oct 2025)</span>
+          <button class="link btn-link" data-cert="cert-ideathon.jpg">Certificate →</button>
+        </div>
+        <div class="also-row">
+          <b>Also participated in</b>
+          <span>D-Day Tech &amp; Innovation Fest, ALIET Techpreneur Club (20 Sep 2025)</span>
+          <button class="link btn-link" data-cert="cert-dday.jpg">Certificate →</button>
+        </div>
+        <div class="also-row">
+          <b>Also built</b>
+          <span>ChurnPredict360, a customer churn prediction system using Python, Pandas, NumPy, Scikit-learn and Flask</span>
+          <a class="link" href="https://github.com/bhavyabejawada1-ui" target="_blank" rel="noopener">GitHub →</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- JOURNEY -->
+    <section id="journey" class="section">
+      <div class="section-head reveal"><span class="num">05</span><h2>Education</h2></div>
+      <div class="timeline">
+        <div class="t-item reveal">
+          <span class="t-date">2024 – 2028 (expected)</span>
+          <h3>B.Tech, Computer Science &amp; Engineering</h3>
+          <p>Eluru College of Engineering &amp; Technology, Eluru, Andhra Pradesh</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- CERTIFICATES -->
+    <section id="certs" class="section">
+      <div class="section-head reveal"><span class="num">06</span><h2>Certificates</h2></div>
+      <p class="cert-hint reveal">Click any certificate to view it full size.</p>
+      <div class="cert-grid">
+        <article class="cert-card reveal">
+          <button class="cert-thumb" data-cert="cert-generative-ai.jpg" aria-label="View Generative AI and Prompt Engineering certificate"><span class="cert-frame"><img src="cert-generative-ai.jpg" alt="Certificate of participation, Generative AI and Prompt Engineering" /></span></button>
+          <div class="cert-info">
+            <h3>Generative AI &amp; Prompt Engineering</h3>
+            <p>C2C Tech Solutions Pvt. Ltd. with Eluru College of Engineering &amp; Technology</p>
+            <span class="date">14 – 16 October 2026</span>
+          </div>
+        </article>
+        <article class="cert-card reveal">
+          <button class="cert-thumb" data-cert="cert-agentic-ai.jpg" aria-label="View Agentic AI Workshop and Hackathon certificate"><span class="cert-frame"><img src="cert-agentic-ai.jpg" alt="Certificate of participation, Agentic AI Workshop and Hackathon" /></span></button>
+          <div class="cert-info">
+            <h3>Agentic AI Workshop &amp; Hackathon</h3>
+            <p>GDGoC &ndash; HITAM, Hyderabad</p>
+            <span class="date">9 – 10 October 2026</span>
+          </div>
+        </article>
+        <article class="cert-card reveal">
+          <button class="cert-thumb" data-cert="cert-aiml-internship.jpg" aria-label="View AI-ML Virtual Internship certificate"><span class="cert-frame"><img src="cert-aiml-internship.jpg" alt="Certificate of Virtual Internship, AI-ML" style="object-position:50% 66%" /></span></button>
+          <div class="cert-info">
+            <h3>AI-ML Virtual Internship</h3>
+            <p>AICTE&ndash;EduSkills &middot; Google for Developers (India Edu Program)</p>
+            <span class="date">June – August 2026</span>
+          </div>
+        </article>
+        <article class="cert-card reveal">
+          <button class="cert-thumb" data-cert="cert-android-internship.jpg" aria-label="View Android Developer Virtual Internship certificate"><span class="cert-frame"><img src="cert-android-internship.jpg" alt="Certificate of Virtual Internship, Android Developer" style="object-position:50% 66%" /></span></button>
+          <div class="cert-info">
+            <h3>Android Developer Virtual Internship</h3>
+            <p>AICTE&ndash;EduSkills &middot; Google for Developers (India Edu Program)</p>
+            <span class="date">April – June 2026</span>
+          </div>
+        </article>
+        <article class="cert-card reveal">
+          <button class="cert-thumb" data-cert="cert-python-internship.jpg" aria-label="View Python Fullstack Developer Virtual Internship certificate"><span class="cert-frame"><img src="cert-python-internship.jpg" alt="Certificate of Virtual Internship, Python Fullstack Developer" style="object-position:50% 66%" /></span></button>
+          <div class="cert-info">
+            <h3>Python Fullstack Developer Virtual Internship</h3>
+            <p>AICTE&ndash;EduSkills &middot; EduSkills Academy</p>
+            <span class="date">January – March 2026</span>
+          </div>
+        </article>
+        <article class="cert-card reveal">
+          <button class="cert-thumb" data-cert="cert-data-engineering-internship.jpg" aria-label="View Data Engineering Virtual Internship certificate"><span class="cert-frame"><img src="cert-data-engineering-internship.jpg" alt="Certificate of Virtual Internship, Data Engineering" style="object-position:50% 66%" /></span></button>
+          <div class="cert-info">
+            <h3>Data Engineering Virtual Internship</h3>
+            <p>AICTE&ndash;EduSkills &middot; Curriculum by AWS Academy</p>
+            <span class="date">October – December 2025</span>
+          </div>
+        </article>
+        <article class="cert-card reveal">
+          <button class="cert-thumb" data-cert="cert-ideathon.jpg" aria-label="View Tech Spokes Ideathon 2025 certificate"><span class="cert-frame"><img src="cert-ideathon.jpg" alt="Certificate of participation, Tech Spokes Ideathon 2025" /></span></button>
+          <div class="cert-info">
+            <h3>Tech Spokes Ideathon 2025</h3>
+            <p>Eluru College of Engineering &amp; Technology</p>
+            <span class="date">October 2025</span>
+          </div>
+        </article>
+        <article class="cert-card reveal">
+          <button class="cert-thumb" data-cert="cert-dday.jpg" aria-label="View D-Day Tech and Innovation Fest certificate"><span class="cert-frame"><img src="cert-dday.jpg" alt="Certificate of participation, D-Day Tech and Innovation Fest" /></span></button>
+          <div class="cert-info">
+            <h3>D-Day Tech &amp; Innovation Fest</h3>
+            <p>ALIET Techpreneur Club, Andhra Loyola Institute of Engineering &amp; Technology</p>
+            <span class="date">20 September 2025</span>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact" class="section contact">
+      <div class="contact-box reveal">
+        <p class="eyebrow"><span class="dot"></span> Let's connect</p>
+        <h2>Looking for a motivated fresher<br />to join your team?</h2>
+        <p>I'm open to internships and project work in software development, web development, data analysis and generative AI. Send me a message and I'll get back to you.</p>
+        <div class="hero-btns center">
+          <a href="mailto:bhavyabejawada1@gmail.com" class="btn primary">bhavyabejawada1@gmail.com</a>
+          <a href="tel:+919390499910" class="btn ghost">📞 +91 93904 99910</a>
+          <a href="https://www.linkedin.com/in/bhavyabejawada-108639384" target="_blank" rel="noopener" class="btn ghost">LinkedIn</a>
+          <a href="https://github.com/bhavyabejawada1-ui" target="_blank" rel="noopener" class="btn ghost">GitHub</a>
+        </div>
+        <p class="loc">📍 Eluru, Andhra Pradesh, India</p>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>© <span id="year"></span> Bejawada Bhavya. Designed &amp; built by me.</p>
+    <a href="#home">Back to top ↑</a>
+  </footer>
+
+  <div class="lightbox" id="lightbox" hidden>
+    <button class="lb-close" id="lbClose" aria-label="Close certificate">&times;</button>
+    <img id="lbImg" alt="Certificate" />
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
