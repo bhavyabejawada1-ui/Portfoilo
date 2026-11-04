@@ -1,60 +1,101 @@
-# Bejawada Bhavya | Portfolio
+# Hi, I'm Bejawada Bhavya
 
-A personal portfolio website built with plain HTML, CSS and JavaScript (no frameworks, no build step).
+**Third-year B.Tech CSE student | Aspiring software developer | Web, data and generative AI enthusiast**
 
-## Files (all 16 sit together in one folder, no sub-folders)
+Portfolio website: https://bhavyabejawada1-ui.github.io
 
-| File | What it does |
-|------|--------------|
-| `index.html` | All the content (about, skills, workshops, certificates, contact) |
-| `style.css` | Colours, layout, animations |
-| `script.js` | Typing effect, scroll animations, background, certificate pop-up |
-| `resume.pdf` | Resume used by the "Download resume" button |
-| `photo.jpg` | Your profile photo |
-| `cert-generative-ai.jpg`, `cert-agentic-ai.jpg`, `cert-ideathon.jpg`, `cert-dday.jpg` | Your workshop and event certificates |
-| `cert-aiml-internship.jpg`, `cert-android-internship.jpg`, `cert-python-internship.jpg`, `cert-data-engineering-internship.jpg` | Your four virtual internship certificates |
-| `world-2050.mp4`, `world-2050-poster.jpg` | The "World in 2050" video and its preview image |
-| `README.md` | This guide |
+---
 
-Keep all of these in the same place. The page loads everything by file name.
+## About me
 
-## Run it on your laptop
+I'm a Computer Science and Engineering undergraduate at Eluru College of Engineering & Technology, building a strong foundation in programming, web development and data analysis. I'm comfortable with C and C++, and I learn best by building: from a machine learning project that predicts customer churn to an AI-generated film about the world in 2050.
 
-1. Extract the zip (right-click, Extract All).
-2. Open the extracted folder and double-click `index.html`.
+I'm looking for an **entry-level internship or project opportunity** where I can apply my analytical thinking, strengthen my technical skills and contribute to real-world solutions.
 
-## Edit it
+## Education
 
-Open the folder in VS Code (or Notepad). All your details are in `index.html`.
+| Degree | Institution | Years |
+|--------|-------------|-------|
+| B.Tech, Computer Science and Engineering | Eluru College of Engineering & Technology, Eluru, Andhra Pradesh | 2024 – 2028 (expected) |
 
-- Typing headline words: top of `script.js`, the `phrases` list.
-- Colours: top of `style.css`, the `--a1`, `--a2`, `--a3` values.
-- Add CGPA: in `index.html`, find the B.Tech item under "Education" and add a line inside its `<p>`.
-- Workshop details: the `WORKSHOPS` section. Each workshop is one `<article class="project">` card.
-- Add a new certificate: put the image in the folder, copy one `<article class="cert-card">` block in the `CERTIFICATES` section and change the image name, title, issuer and date.
-- Replace the video: overwrite `world-2050.mp4` and `world-2050-poster.jpg` using the same file names.
+## Technical skills
 
-## Deploy on GitHub Pages (free)
+| Area | Skills |
+|------|--------|
+| Programming | C, C++, Python |
+| Web development | JavaScript, React, Node.js, Express.js (learning and academic practice) |
+| Data and machine learning | SQL, Excel, Pandas, NumPy, Scikit-learn, Flask |
+| Generative AI | Prompt writing, photo editing, video editing, poster generation, PPT creation |
+| Concepts | Programming fundamentals, problem-solving, basic web application development, introductory AI agents |
 
-### 1. Create the repository
-1. Sign in at https://github.com (account: `bhavyabejawada1-ui`).
-2. Click **+** (top right), then **New repository**.
-3. Name it `bhavyabejawada1-ui.github.io` (your username, then `.github.io`). Set it to **Public**. Do not tick "Add a README". Click **Create repository**.
+**Strengths:** willingness to learn, creative problem-solving, team collaboration, interest in technology and AI.
 
-### 2. Upload the files
-1. Extract the zip on your laptop first. GitHub cannot open zip files.
-2. On the empty repository page, click **uploading an existing file**.
-3. Open the extracted folder, press **Ctrl + A** to select all 16 files, and drag them into the GitHub box. Wait until every file finishes uploading.
-4. Click **Commit changes**.
+## Virtual internships
 
-### 3. Turn on GitHub Pages
-1. In the repository go to **Settings**, then **Pages**.
-2. Under **Build and deployment**, set **Source** to **Deploy from a branch**.
-3. Choose branch **main** and folder **/ (root)**, then click **Save**.
-4. Wait 1 to 2 minutes. Your site is live at **https://bhavyabejawada1-ui.github.io**
+Completed under the AICTE–EduSkills virtual internship programme (Ministry of Education).
 
-### 4. Update it later
-Edit a file on your laptop, then in the repository click **Add file**, **Upload files**, drag the changed file in and **Commit changes**. Reload your site with Ctrl + F5.
+| Internship | Duration | Period | Supported by |
+|------------|----------|--------|--------------|
+| AI-ML Virtual Internship | 8 weeks | Jun – Aug 2026 | Google for Developers (India Edu Program) |
+| Android Developer Virtual Internship | 8 weeks | Apr – Jun 2026 | Google for Developers (India Edu Program) |
+| Python Fullstack Developer Virtual Internship | 10 weeks | Jan – Mar 2026 | EduSkills Academy |
+| Data Engineering Virtual Internship | 10 weeks | Oct – Dec 2025 | Curriculum provided by AWS Academy |
 
-## Put the link to work
-Add the live link to your resume, your LinkedIn profile ("Contact info" and "Featured"), your GitHub bio and every internship application.
+## Workshops, hackathon and events
+
+### Generative AI & Prompt Engineering Workshop
+**14 – 16 October 2026** | C2C Tech Solutions Pvt. Ltd. with the CSE Department, Eluru College of Engineering & Technology
+
+- Learned how large language models work and how to write effective prompts.
+- Worked hands-on with photo editing and video editing.
+- Picked up new skills in poster generation and PPT creation.
+- Explored AI audio, song-lyrics and song generation, and an introduction to AI agents.
+- Created an AI-generated concept video, **"The World in 2050"**.
+
+### Agentic AI Workshop & Hackathon
+**9 – 10 October 2026** | Organised by GDGoC – HITAM, Hyderabad, Telangana
+
+- Team hackathon problem statement: *Zero-Waste Grocery: An Agentic AI Approach to Perishable Demand & Shelf-life Management*.
+- Explored AI agents and how they can automate tasks and solve real-world problems.
+- Project repository: [FreshGuard-AI](https://github.com/bhavyabejawada1-ui/FreshGuard-AI)
+
+### Other events
+- **Tech Spokes Ideathon 2025**, Eluru College of Engineering & Technology (October 2025)
+- **D-Day Tech & Innovation Fest**, ALIET Techpreneur Club, Andhra Loyola Institute of Engineering & Technology (20 September 2025)
+
+## Projects
+
+| Project | Description | Tech |
+|---------|-------------|------|
+| ChurnPredict360 | Customer churn prediction system that identifies customers likely to discontinue a company's products or services, with a Flask web interface. | Python, Pandas, NumPy, Scikit-learn, Flask |
+| The World in 2050 | AI-generated concept video imagining how the world may look in 2050, created during the Generative AI workshop. | Generative AI, prompt writing |
+| FreshGuard-AI | Agentic AI hackathon project repository. | See the repository |
+
+## Certificates
+
+- AI-ML Virtual Internship (June – August 2026)
+- Android Developer Virtual Internship (April – June 2026)
+- Python Fullstack Developer Virtual Internship (January – March 2026)
+- Data Engineering Virtual Internship (October – December 2025)
+- Generative AI & Prompt Engineering, C2C Tech Solutions with ECET (October 2026)
+- Agentic AI Workshop & Hackathon, GDGoC – HITAM (October 2026)
+- Tech Spokes Ideathon 2025, ECET (October 2025)
+- D-Day Tech & Innovation Fest, ALIET (September 2025)
+
+## Career interests
+
+Software development, web development, data analysis and generative AI.
+
+## Languages
+
+English, Telugu
+
+## Contact
+
+| | |
+|---|---|
+| Email | [bhavyabejawada1@gmail.com](mailto:bhavyabejawada1@gmail.com) |
+| Phone | +91 93904 99910 |
+| Location | Eluru, Andhra Pradesh, India |
+| LinkedIn | [linkedin.com/in/bhavyabejawada-108639384](https://www.linkedin.com/in/bhavyabejawada-108639384) |
+| GitHub | [github.com/bhavyabejawada1-ui](https://github.com/bhavyabejawada1-ui) |
